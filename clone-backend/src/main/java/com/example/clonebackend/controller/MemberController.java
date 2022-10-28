@@ -3,7 +3,7 @@ package com.example.clonebackend.controller;
 import com.example.clonebackend.controller.request.LoginRequestDto;
 import com.example.clonebackend.controller.request.MemberRequestDto;
 import com.example.clonebackend.controller.response.ResponseDto;
-import com.example.clonebackend.service.KakaoService;
+//import com.example.clonebackend.service.KakaoService;
 import com.example.clonebackend.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
@@ -18,7 +18,7 @@ import javax.validation.Valid;
 public class MemberController {
 
     private final MemberService memberService;
-    private final KakaoService kakaoService;
+//    private final KakaoService kakaoService;
 
     // 회원가입
     @PostMapping(value = "/member/signup")
